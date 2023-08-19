@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bg-dot {
+        background-image: radial-gradient(rgba(0,0,0,0.25) 5%, white 5%);
+        background-position: 0 0;
+        background-size: 30px 30px;
+    }
+    .bg-dot-bigger {
+        background-image: radial-gradient(rgba(0,0,0,0.25) 5%, transparent 5%);
+        background-position: 0 0;
+        background-size: 50px 50px;
+    }
+}
